@@ -1,0 +1,21 @@
+body {
+	background: url(https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg);
+	 background-size: cover; 
+	background-repeat: no-repeat;
+	font: 700 18px/1.5 'Josefin Sans', sans-serif;
+	overflow: hidden;
+}
+a {
+	text-decoration: none;
+}
+.wrapper {
+	position: relative;
+	max-width: 700px;
+	background-color:	rgba(255,255,0,0.1);
+	margin: -10px auto;
+	padding: 5px;
+}
+[target = "_blank"]::after {
+	content: '\f11d';
+	display: inline-block;
+}

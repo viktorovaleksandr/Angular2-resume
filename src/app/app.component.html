@@ -1,0 +1,29 @@
+<div class="wrapper">
+<h1>
+  {{ title }}
+</h1>
+<photo></photo> 
+<ul class="contacts">
+  <li *ngFor="let item of contacts">
+    {{ item }}
+  </li>
+  <li>E-mail:
+     <a href="mailto:viktorovaleksandr7@gmail.com">viktorovaleksandr7@gmail.com</a>
+  </li>
+</ul>
+<h3>OBJECTIVE: </h3>
+<p>To obtain a Junior JavaScript Developer position. Ready to start my professional IT career, deepen my existing knowledge and learn new skills to become strong front-end developer.</p>
+<h3>EDUCATION: </h3>
+<p>Odessa National Academy Of Food Technologies</p>
+<p>Hillel It School</p>
+<h3>SKILLS & KNOWLEDGE: </h3>
+  <ul class="skills">
+    <li *ngFor="let item of skills">
+      {{ item }}
+    </li>
+  </ul>
+
+</div>
+<links></links>
+
+
