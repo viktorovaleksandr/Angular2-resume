@@ -9,4 +9,5 @@ export class AppComponent {
     title = 'Viktorov Alexander';
     contacts = ['Mobile: 0933791720', 'Skype: viktorov alexander'];
     skills = ['JavaScript', 'HTML 5', 'CSS 3 (SASS)', 'JQuery','Bootstrap', 'Angular 2','Node.js (Express)'];
+    email = 'viktorovaleksandr7@gmail.com';
 }
